@@ -16,6 +16,9 @@
 		789695AB2410BD7C00F8E612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789695AA2410BD7C00F8E612 /* main.m */; };
 		789695B52410BD7D00F8E612 /* MyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 789695B42410BD7D00F8E612 /* MyCodeTests.m */; };
 		789695C02410BD7D00F8E612 /* MyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 789695BF2410BD7D00F8E612 /* MyCodeUITests.m */; };
+		789695D82412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 789695D32412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.m */; };
+		789695D92412200F00F8E612 /* XDXVPNManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 789695D42412200F00F8E612 /* XDXVPNManager.mm */; };
+		789695DA2412200F00F8E612 /* XDXVPNManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 789695D72412200F00F8E612 /* XDXVPNManagerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		789695BB2410BD7D00F8E612 /* MyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		789695BF2410BD7D00F8E612 /* MyCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCodeUITests.m; sourceTree = "<group>"; };
 		789695C12410BD7D00F8E612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789695D22412200F00F8E612 /* XDXVPNManagerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDXVPNManagerModel.h; sourceTree = "<group>"; };
+		789695D32412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XDXSafeSetRemove.m"; sourceTree = "<group>"; };
+		789695D42412200F00F8E612 /* XDXVPNManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XDXVPNManager.mm; sourceTree = "<group>"; };
+		789695D52412200F00F8E612 /* XDXVPNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDXVPNManager.h; sourceTree = "<group>"; };
+		789695D62412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XDXSafeSetRemove.h"; sourceTree = "<group>"; };
+		789695D72412200F00F8E612 /* XDXVPNManagerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDXVPNManagerModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 		789695972410BD7500F8E612 /* MyCode */ = {
 			isa = PBXGroup;
 			children = (
+				789695D12412200F00F8E612 /* WhatHell */,
 				789695982410BD7500F8E612 /* AppDelegate.h */,
 				789695992410BD7500F8E612 /* AppDelegate.m */,
 				7896959B2410BD7500F8E612 /* SceneDelegate.h */,
@@ -136,6 +146,19 @@
 			);
 			path = MyCodeUITests;
 			sourceTree = "<group>";
+		};
+		789695D12412200F00F8E612 /* WhatHell */ = {
+			isa = PBXGroup;
+			children = (
+				789695D22412200F00F8E612 /* XDXVPNManagerModel.h */,
+				789695D32412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.m */,
+				789695D42412200F00F8E612 /* XDXVPNManager.mm */,
+				789695D52412200F00F8E612 /* XDXVPNManager.h */,
+				789695D62412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.h */,
+				789695D72412200F00F8E612 /* XDXVPNManagerModel.m */,
+			);
+			path = WhatHell;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -267,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789695DA2412200F00F8E612 /* XDXVPNManagerModel.m in Sources */,
 				789695A02410BD7500F8E612 /* ViewController.m in Sources */,
 				7896959A2410BD7500F8E612 /* AppDelegate.m in Sources */,
 				789695AB2410BD7C00F8E612 /* main.m in Sources */,
+				789695D82412200F00F8E612 /* NSMutableDictionary+XDXSafeSetRemove.m in Sources */,
 				7896959D2410BD7500F8E612 /* SceneDelegate.m in Sources */,
+				789695D92412200F00F8E612 /* XDXVPNManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
